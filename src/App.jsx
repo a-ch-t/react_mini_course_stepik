@@ -1,11 +1,11 @@
 import Greeting from "./components/Greeting";
+import UserProfile from "./components/UserProfile";
 
 function App() {
   return (
     <div>
-      <Greeting name="Alice" />
-      <Greeting name="Bob" />
-      <Greeting name="Rob" />
+      <UserProfile name="Alice" age="34" />
+      <UserProfile name="Bob" age="43" />
     </div>
   );
 }
