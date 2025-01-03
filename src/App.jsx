@@ -1,11 +1,9 @@
-//import Greeting from "./components/Greeting";
-//import UserProfile from "./components/UserProfile";
-import LoginStatus from "./components/LoginStatus";
+import Button from "./components/Button";
 
 function App() {
   return (
     <div>
-      <LoginStatus />
+      <Button />
     </div>
   );
 }
