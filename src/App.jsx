@@ -1,9 +1,10 @@
-import Button from "./components/Button";
+import UserInfo from "./components/UserInfo";
 
 function App() {
   return (
     <div>
-      <Button />
+      <UserInfo isAdmin={true} />
+      <UserInfo isAdmin={false} />
     </div>
   );
 }
