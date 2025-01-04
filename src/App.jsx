@@ -1,12 +1,8 @@
-import UserInfo from "./components/UserInfo";
+import TaskList from "./components/TaskList";
 
 function App() {
-  return (
-    <div>
-      <UserInfo isAdmin={true} />
-      <UserInfo isAdmin={false} />
-    </div>
-  );
+  const tasks = ["Learn JSX", "Build a React app", "Explore hooks"];
+  return <TaskList tasks={tasks} />;
 }
 
 export default App;
