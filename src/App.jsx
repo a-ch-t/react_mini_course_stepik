@@ -1,16 +1,11 @@
-import Article from "./components/Article";
+import ColoredText from "./components/ColoredText";
 
 function App() {
   return (
     <div>
-      <Article
-        title="JSX Overview"
-        content="JSX is a syntax extension for JavaScript."
-      />
-      <Article
-        title="React Components"
-        content="React components let you split the UI into independent parts."
-      />
+      <ColoredText color="blue" />
+      <ColoredText color="red" />
+      <ColoredText color="green" />
     </div>
   );
 }
