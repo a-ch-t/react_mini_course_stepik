@@ -1,13 +1,7 @@
-import ColoredText from "./components/ColoredText";
+import SimpleList from "./components/SimpleList";
 
 function App() {
-  return (
-    <div>
-      <ColoredText color="blue" />
-      <ColoredText color="red" />
-      <ColoredText color="green" />
-    </div>
-  );
+  return <SimpleList items={["Apple", "Banana", "Cherry"]} />;
 }
 
 export default App;
